@@ -1,17 +1,13 @@
-[![euler](cortex.png)](https://github.com/TheHive-Project/Cortex)
+## Cortex Analyzer Template
+[![Docker Image CI](https://github.com/adammchugh/Cortex_Analyzer_Template/actions/workflows/docker-image.yml/badge.svg?branch=development)](https://github.com/adammchugh/Cortex_Analyzer_Template/actions/workflows/docker-image.yml)
+[![CodeQL](https://github.com/adammchugh/Cortex_Analyzer_Template/actions/workflows/codeql-analysis.yml/badge.svg?branch=development)](https://github.com/adammchugh/Cortex_Analyzer_Template/actions/workflows/codeql-analysis.yml)
 
-## template
-
-### usage
+### Usage
 
 ```console
-$ pip install --user cortexutils==2.0.0
-Collecting cortexutils==2.0.0
-  Downloading cortexutils-2.0.0-py2.py3-none-any.whl (20 kB)
-Installing collected packages: cortexutils
-Successfully installed cortexutils-2.0.0
+$ pip install --user cortexutils==2.1.0
 
-$ cat job/input/input.json | jq
+$ cat tests/input/input.json | jq
 {
   "config": {
     "check_pap": true,
@@ -26,9 +22,9 @@ $ cat job/input/input.json | jq
   "tlp:": 1
 }
 
-$ template/template.py job
+$ python template.py tests
 
-$ cat job/output/output.json | jq
+$ cat tests/output/output.json | jq
 {
   "success": true,
   "summary": {
@@ -69,3 +65,4 @@ $ cat job/output/output.json | jq
   }
 }
 ```
+aa
