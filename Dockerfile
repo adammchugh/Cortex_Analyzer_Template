@@ -1,5 +1,5 @@
-FROM python:3.8.1-alpine3.11
-LABEL maintainer=ghislain.bernard@gmail.com
+FROM python:3.9-alpine3.15
+LABEL maintainer=adam.mchugh@mchughsecurity.com
 
 WORKDIR /analyzer
 

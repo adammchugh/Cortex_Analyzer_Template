@@ -2,8 +2,6 @@
 
 ## template
 
-[![build](https://drone.virtware.top/api/badges/ghislain-bernard/cortex-analyzer-template/status.svg?branch=master)](https://drone.virtware.top "master") [![build](https://drone.virtware.top/api/badges/ghislain-bernard/cortex-analyzer-template/status.svg?branch=develop)](https://drone.virtware.top "develop")
-
 ### usage
 
 ```console

@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-#--------------------------------------------- ghislain.bernard@gmail.com ---------------------------------------------#
 
 import time
 
 from cortexutils.analyzer import Analyzer
-
-#----------------------------------------------------------------------------------------------------------------------#
 
 class Template(Analyzer):
 
@@ -30,5 +27,3 @@ class Template(Analyzer):
 
 if __name__ == '__main__':
   Template().run()
-
-#--------------------------------------------- ghislain.bernard@gmail.com ---------------------------------------------#
