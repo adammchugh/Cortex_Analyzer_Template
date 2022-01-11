@@ -1,3 +1,0 @@
-cortexutils==2.1.0
-requests
-pipenv==2022.1.8

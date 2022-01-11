@@ -3,7 +3,9 @@ LABEL maintainer=adam.mchugh@mchughsecurity.com
 
 WORKDIR /analyzer
 
-COPY template template
-RUN pip install --no-cache-dir --requirement template/requirements.txt
+COPY template.py template.py
+COPY template.json template.json
+COPY requirements.txt requirements.txt
+RUN pip install --no-cache-dir --requirement requirements.txt
 
-ENTRYPOINT ["template/template.py"]
+ENTRYPOINT ["template.py"]
