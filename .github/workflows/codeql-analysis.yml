@@ -13,10 +13,10 @@ name: "Code Quality Review"
 
 on:
   push:
-    branches: [ development ]
+    branches: [ production ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ development ]
+    branches: [ production ]
   schedule:
     - cron: '22 9 * * 4'
 
