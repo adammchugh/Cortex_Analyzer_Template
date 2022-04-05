@@ -21,7 +21,16 @@ class Template(Analyzer):
     self.report({'data': self.getData(), 'input': self._input})
 
   def summary(self, raw):
-    return {'taxonomies': [self.build_taxonomy('info', 'template', self.data_type, self.getData())]}
+    taxonomies = []
+
+    taxonomies.append(
+      self.build_taxonomy('info','Cortex-Analyzer-Template','Records',time.time())
+    )
+    taxonomies.append(
+      self.build_taxonomy('info', 'Cortex-Analyzer-Template', self.data_type, self.getData())
+    )
+
+    return {"taxonomies": taxonomies}
 
 
 if __name__ == '__main__':
