@@ -65,4 +65,3 @@ $ cat tests/output/output.json | jq
   }
 }
 ```
-aa

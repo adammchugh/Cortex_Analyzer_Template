@@ -23,7 +23,6 @@ class Template(Analyzer):
   def summary(self, raw):
     return {'taxonomies': [self.build_taxonomy('info', 'template', self.data_type, self.getData())]}
 
-#----------------------------------------------------------------------------------------------------------------------#
 
 if __name__ == '__main__':
   Template().run()

@@ -1,5 +1,5 @@
 {
-  "author": "Ghislain Bernard",
+  "author": "Adam McHugh",
   "baseConfig": "template",
   "command": "template/template.py",
   "config": {
@@ -22,6 +22,6 @@
   "description": "Template of Cortex analyzer",
   "license": "MIT",
   "name": "template",
-  "url": "https://github.com/ghislain-bernard/cortex-analyzer-template",
+  "url": "https://github.com/adammchugh/Cortex-Analyzer-Template",
   "version": "0.0.1"
 }
